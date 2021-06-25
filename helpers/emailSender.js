@@ -38,7 +38,7 @@ const sendEmail = async (verifyToken, email, name) => {
         button: {
           color: '#22BC66',
           text: 'Confirm your account',
-          link: `http://localhost:3000/email-verify/${verifyToken}`
+          link: `https://pnvm-phone-book-app.netlify.app/email-verify/${verifyToken}`
         }
       },
       outro: 'Need help, or have questions? Just reply to this email, we\'d love to help.'
